@@ -1,0 +1,47 @@
+name: 직업 블로그 자동 포스팅
+
+on:
+  schedule:
+    - cron: '0 1 * * *'   # 매일 오전 10시 KST (UTC+9 → UTC 01:00)
+    - cron: '0 5 * * *'   # 매일 오후 2시  KST (UTC+9 → UTC 05:00)
+  workflow_dispatch:       # 수동 실행 (테스트용)
+
+permissions:
+  contents: write          # published_jobs.json commit을 위해 필요
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 코드 체크아웃
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Python 3.11 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 의존성 설치
+        run: pip install -r requirements.txt
+
+      - name: 포스팅 실행
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          WP_URL:            ${{ secrets.WP_URL }}
+          WP_USERNAME:       ${{ secrets.WP_USERNAME }}
+          WP_APP_PASSWORD:   ${{ secrets.WP_APP_PASSWORD }}
+        run: |
+          cd $GITHUB_WORKSPACE
+          python src/main.py
+
+      - name: 발행 이력 커밋
+        run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name  "GitHub Actions Bot"
+          git add published/
+          LAST=$(cat published/last_published.txt 2>/dev/null || echo "직업 정보")
+          git diff --staged --quiet || git commit -m "✅ 포스팅 완료: ${LAST}"
+          git push
