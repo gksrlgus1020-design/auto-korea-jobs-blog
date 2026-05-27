@@ -58,5 +58,11 @@ jobs:
           LAST=$(cat published/last_published.txt 2>/dev/null || echo "직업 정보")
           git diff --staged --quiet || git commit -m "✅ 포스팅 완료: ${LAST}"
           for i in 1 2 3; do
-            git push && break || { echo "Push 실패 (${i}/3), 10초 후 재시도..."; sleep 10; git pull origin main --no-rebase; }
+            if git push; then
+              echo "Push 성공"
+              break
+            fi
+            echo "Push 실패 (${i}/3), 15초 후 재시도..."
+            sleep 15
+            git pull origin main --no-rebase
           done
