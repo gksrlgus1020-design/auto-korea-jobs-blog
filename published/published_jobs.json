@@ -1,5 +1,12 @@
 {
-  "published_ids": [],
-  "total_published": 0,
-  "last_published": null
+  "published_ids": [
+    "089"
+  ],
+  "total_published": 1,
+  "last_published": {
+    "id": "089",
+    "name": "방송 PD",
+    "post_id": 6,
+    "published_at": "2026-05-27T10:05:01.244401"
+  }
 }
