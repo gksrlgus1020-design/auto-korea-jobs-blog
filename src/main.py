@@ -19,6 +19,7 @@ except ImportError:
 from job_picker import pick_job, mark_published, remaining_count
 from content_gen import generate_content
 from wp_poster import post_to_wordpress
+from image_fetcher import fetch_thumbnail
 
 
 def main() -> None:
@@ -49,16 +50,24 @@ def main() -> None:
         print("(--dry-run 모드: 포스팅하지 않았습니다)")
         return
 
-    # ── 3. WordPress 포스팅 ───────────────────────────────────────────────────
+    # ── 3. 이미지 가져오기 ────────────────────────────────────────────────────
+    print("🖼️  Pexels에서 이미지 가져오는 중...")
+    image_bytes, image_filename = fetch_thumbnail(job["name"], job["category"])
+    if image_bytes:
+        print(f"  ✅ 이미지 준비 완료: {image_filename}")
+    else:
+        print("  ⚠️ 이미지 없음 (이미지 없이 포스팅)")
+
+    # ── 4. WordPress 포스팅 ───────────────────────────────────────────────────
     status = "draft" if args.test else "publish"
     print(f"📤 WordPress에 포스팅 중... (상태: {status})")
-    post_id = post_to_wordpress(title, content, job, status)
+    post_id = post_to_wordpress(title, content, job, status, image_bytes, image_filename)
 
     if not post_id:
         print("❌ 포스팅 실패. 종료합니다.")
         sys.exit(1)
 
-    # ── 4. 발행 이력 저장 ─────────────────────────────────────────────────────
+    # ── 5. 발행 이력 저장 ─────────────────────────────────────────────────────
     mark_published(job["id"], post_id, job["name"])
     print(f"✅ 완료!  포스트 ID: {post_id}  |  직업: {job['name']}")
 

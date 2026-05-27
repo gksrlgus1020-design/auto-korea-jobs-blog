@@ -32,7 +32,26 @@ def _get_or_create_term(endpoint: str, name: str) -> int:
     return r.json()["id"]
 
 
-def post_to_wordpress(title: str, content: str, job: dict, status: str = "publish") -> int | None:
+def _upload_image(image_bytes: bytes, filename: str) -> int | None:
+    """이미지를 WordPress 미디어 라이브러리에 업로드하고 media_id 반환."""
+    base = _base_url()
+    username = os.environ["WP_USERNAME"]
+    password = os.environ["WP_APP_PASSWORD"]
+    token = base64.b64encode(f"{username}:{password}".encode()).decode()
+    headers = {
+        "Authorization": f"Basic {token}",
+        "Content-Disposition": f"attachment; filename={filename}",
+        "Content-Type": "image/jpeg",
+    }
+    r = requests.post(f"{base}/wp-json/wp/v2/media", data=image_bytes, headers=headers, timeout=30)
+    if r.status_code in (200, 201):
+        return r.json()["id"]
+    print(f"  ⚠️ 이미지 업로드 실패 {r.status_code}: {r.text[:200]}")
+    return None
+
+
+def post_to_wordpress(title: str, content: str, job: dict, status: str = "publish",
+                      image_bytes: bytes | None = None, image_filename: str | None = None) -> int | None:
     """
     WordPress REST API로 포스팅.
     성공 시 post_id 반환, 실패 시 None.
@@ -56,6 +75,13 @@ def post_to_wordpress(title: str, content: str, job: dict, status: str = "publis
         "categories": [cat_id],
         "tags":       tag_ids,
     }
+
+    # 대표 이미지 업로드
+    if image_bytes and image_filename:
+        media_id = _upload_image(image_bytes, image_filename)
+        if media_id:
+            payload["featured_media"] = media_id
+            print(f"  🖼️  대표 이미지 설정 (media_id: {media_id})")
 
     r = requests.post(f"{base}/wp-json/wp/v2/posts", json=payload, headers=headers, timeout=30)
 
