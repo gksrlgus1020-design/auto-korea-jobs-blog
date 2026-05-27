@@ -358,6 +358,48 @@ AI 자동화 패턴 방지를 위해 아래 요소를 랜덤화합니다.
 - 실제 준비물
 
 ━━━━━━━━━━━━━━━━━━
+[시각적 레이아웃 기준 — 반드시 적용]
+━━━━━━━━━━━━━━━━━━
+
+독자가 처음 봤을 때 읽고 싶어지는 구조를 만듭니다.
+
+연봉 정보는 반드시 표로 표현:
+<table style="width:100%;border-collapse:collapse;">
+  <tr style="background:#f5f5f5;">
+    <th style="border:1px solid #ddd;padding:10px;">구분</th>
+    <th style="border:1px solid #ddd;padding:10px;">연봉</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #ddd;padding:10px;">초봉</td>
+    <td style="border:1px solid #ddd;padding:10px;">약 X만원</td>
+  </tr>
+</table>
+
+장점/단점은 반드시 박스 안에:
+<div style="background:#f0f8ff;border-left:4px solid #4a90e2;padding:16px;margin:12px 0;border-radius:4px;">
+  <strong>✅ 장점</strong><br>내용
+</div>
+<div style="background:#fff5f5;border-left:4px solid #e25555;padding:16px;margin:12px 0;border-radius:4px;">
+  <strong>⚠️ 단점</strong><br>내용
+</div>
+
+핵심 요약 정보는 박스로:
+<div style="background:#fffbe6;border:1px solid #ffe58f;padding:16px;margin:12px 0;border-radius:6px;">
+  <strong>💡 핵심 요약</strong><br>내용
+</div>
+
+취업 방법/준비 과정은 번호 박스로:
+<div style="background:#f6ffed;border-left:4px solid #52c41a;padding:16px;margin:12px 0;border-radius:4px;">
+  <strong>📌 취업 준비 단계</strong><br>내용
+</div>
+
+규칙:
+- ul/li 단독 나열 금지 — 반드시 박스나 표 안에 넣기
+- 글 전체에 박스/표 최소 3개 이상 사용
+- 모바일에서도 깔끔하게 보이는 인라인 스타일 사용
+- 섹션 간 시각적 구분 명확히
+
+━━━━━━━━━━━━━━━━━━
 [출력 규칙]
 ━━━━━━━━━━━━━━━━━━
 
@@ -418,7 +460,10 @@ def generate_content(job: dict) -> tuple[str, str, str]:
 - h2/h3/p/ul/li 태그 사용
 - 같은 구조 반복 금지
 - 사람 손본 느낌 유지
-- AI 티 최소화"""
+- AI 티 최소화
+- 연봉은 반드시 표로
+- 장단점은 반드시 색상 박스로
+- 전체에 박스/표 최소 3개 이상 사용"""
 
     message = _get_client().messages.create(
         model="claude-sonnet-4-6",
