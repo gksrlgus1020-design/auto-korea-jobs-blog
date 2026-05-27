@@ -2,13 +2,14 @@
   "published_ids": [
     "089",
     "015",
-    "004"
+    "004",
+    "025"
   ],
-  "total_published": 3,
+  "total_published": 4,
   "last_published": {
-    "id": "004",
-    "name": "AI·머신러닝 엔지니어",
-    "post_id": 9,
-    "published_at": "2026-05-27T10:23:58.046941"
+    "id": "025",
+    "name": "약사",
+    "post_id": 10,
+    "published_at": "2026-05-27T10:25:58.873664"
   }
 }
