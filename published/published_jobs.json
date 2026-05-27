@@ -6,13 +6,14 @@
     "025",
     "101",
     "067",
-    "020"
+    "020",
+    "128"
   ],
-  "total_published": 7,
+  "total_published": 8,
   "last_published": {
-    "id": "020",
-    "name": "정보보안 컨설턴트",
-    "post_id": 16,
-    "published_at": "2026-05-27T10:58:08.525214"
+    "id": "128",
+    "name": "PR·홍보 전문가",
+    "post_id": 24,
+    "published_at": "2026-05-27T12:02:37.906670"
   }
 }
