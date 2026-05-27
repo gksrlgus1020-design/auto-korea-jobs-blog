@@ -5,13 +5,14 @@
     "004",
     "025",
     "101",
-    "067"
+    "067",
+    "020"
   ],
-  "total_published": 6,
+  "total_published": 7,
   "last_published": {
-    "id": "067",
-    "name": "소방관",
-    "post_id": 14,
-    "published_at": "2026-05-27T10:41:46.820012"
+    "id": "020",
+    "name": "정보보안 컨설턴트",
+    "post_id": 16,
+    "published_at": "2026-05-27T10:58:08.525214"
   }
 }
