@@ -4,13 +4,14 @@
     "015",
     "004",
     "025",
-    "101"
+    "101",
+    "067"
   ],
-  "total_published": 5,
+  "total_published": 6,
   "last_published": {
-    "id": "101",
-    "name": "사회복지사",
-    "post_id": 12,
-    "published_at": "2026-05-27T10:37:50.889988"
+    "id": "067",
+    "name": "소방관",
+    "post_id": 14,
+    "published_at": "2026-05-27T10:41:46.820012"
   }
 }
