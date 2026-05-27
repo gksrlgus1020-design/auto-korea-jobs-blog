@@ -33,6 +33,7 @@ jobs:
           WP_URL:            ${{ secrets.WP_URL }}
           WP_USERNAME:       ${{ secrets.WP_USERNAME }}
           WP_APP_PASSWORD:   ${{ secrets.WP_APP_PASSWORD }}
+          PEXELS_API_KEY:    ${{ secrets.PEXELS_API_KEY }}
         run: |
           cd $GITHUB_WORKSPACE
           python src/main.py
