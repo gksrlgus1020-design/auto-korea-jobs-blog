@@ -31,10 +31,13 @@ def fetch_thumbnail(job_name: str, category: str) -> tuple[bytes, str] | tuple[N
             headers=headers,
             timeout=10,
         )
+        print(f"  Pexels 응답: {r.status_code} (query: {query})")
         if r.status_code != 200:
+            print(f"  Pexels 오류: {r.text[:200]}")
             return None, None
 
         photos = r.json().get("photos", [])
+        print(f"  Pexels 사진 수: {len(photos)}")
         if not photos:
             return None, None
 
