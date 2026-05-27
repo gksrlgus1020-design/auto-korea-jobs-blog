@@ -38,9 +38,11 @@ def _upload_image(image_bytes: bytes, filename: str) -> int | None:
     username = os.environ["WP_USERNAME"]
     password = os.environ["WP_APP_PASSWORD"]
     token = base64.b64encode(f"{username}:{password}".encode()).decode()
+    # Content-Disposition 헤더는 ASCII만 허용 — 한글 제거 후 사용
+    safe_filename = filename.encode("ascii", "ignore").decode("ascii") or "thumbnail.jpg"
     headers = {
         "Authorization": f"Basic {token}",
-        "Content-Disposition": f"attachment; filename={filename}",
+        "Content-Disposition": f"attachment; filename={safe_filename}",
         "Content-Type": "image/jpeg",
     }
     r = requests.post(f"{base}/wp-json/wp/v2/media", data=image_bytes, headers=headers, timeout=30)
