@@ -15,16 +15,16 @@ _CATEGORY_KEYWORDS = {
 }
 
 
-def fetch_thumbnail(job_name: str, category: str) -> tuple[bytes, str] | tuple[None, None]:
-    """직업명으로 Pexels 이미지 검색. 연관성 높은 첫 번째 사진 반환."""
+def fetch_thumbnail(job_name: str, category: str, image_query: str = "") -> tuple[bytes, str] | tuple[None, None]:
+    """Claude가 제안한 영어 검색어로 Pexels 이미지 검색. 연관성 높은 첫 번째 사진 반환."""
     api_key = os.environ.get("PEXELS_API_KEY", "")
     if not api_key:
         return None, None
 
     headers = {"Authorization": api_key}
 
-    # 1차: 직업명(한국어)으로 검색
-    result = _search(job_name, headers)
+    # 1차: Claude가 생성한 영어 검색어
+    result = _search(image_query, headers) if image_query else None
 
     # 2차: 카테고리 영어 키워드로 검색
     if not result:

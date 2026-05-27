@@ -40,8 +40,9 @@ def main() -> None:
 
     # ── 2. 본문 생성 ──────────────────────────────────────────────────────────
     print("✍️  Claude API로 본문 생성 중...")
-    title, content = generate_content(job)
+    title, content, image_query = generate_content(job)
     print(f"📄 제목: {title}")
+    print(f"🔍 이미지 검색어: {image_query}")
 
     if args.dry_run:
         print("\n" + "─" * 60)
@@ -52,7 +53,7 @@ def main() -> None:
 
     # ── 3. 이미지 가져오기 ────────────────────────────────────────────────────
     print("🖼️  Pexels에서 이미지 가져오는 중...")
-    image_bytes, image_filename = fetch_thumbnail(job["name"], job["category"])
+    image_bytes, image_filename = fetch_thumbnail(job["name"], job["category"], image_query)
     if image_bytes:
         print(f"  ✅ 이미지 준비 완료: {image_filename}")
     else:

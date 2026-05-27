@@ -369,6 +369,9 @@ AI 자동화 패턴 방지를 위해 아래 요소를 랜덤화합니다.
 ##TITLE##
 [제목]
 
+##IMAGE_QUERY##
+[이 직업을 대표하는 Pexels 검색용 영어 키워드 1~3단어. 예: social worker, software developer, nurse hospital]
+
 ##CONTENT##
 [HTML 본문]
 
@@ -382,9 +385,9 @@ def _get_client() -> anthropic.Anthropic:
     return _client
 
 
-def generate_content(job: dict) -> tuple[str, str]:
+def generate_content(job: dict) -> tuple[str, str, str]:
     """
-    직업 데이터를 받아 (제목, HTML 본문) 튜플을 반환.
+    직업 데이터를 받아 (제목, HTML 본문, 이미지 검색어) 튜플을 반환.
     """
     content_type = random.choice(_CONTENT_TYPES)
     target_length = random.choice(["1200~1800자", "2000~2800자", "3000~3500자", "3800~4500자"])
@@ -427,15 +430,24 @@ def generate_content(job: dict) -> tuple[str, str]:
     return _parse_response(message.content[0].text, job["name"])
 
 
-def _parse_response(response: str, job_name: str) -> tuple[str, str]:
+def _parse_response(response: str, job_name: str) -> tuple[str, str, str]:
     title = f"{job_name} 직업 완벽 가이드 | 연봉, 전망, 취업 방법 총정리"
+    image_query = job_name
     content = response
 
     if "##TITLE##" in response and "##CONTENT##" in response:
         try:
             title_start = response.index("##TITLE##") + len("##TITLE##")
-            content_start = response.index("##CONTENT##")
-            title = response[title_start:content_start].strip()
+
+            if "##IMAGE_QUERY##" in response:
+                image_start = response.index("##IMAGE_QUERY##") + len("##IMAGE_QUERY##")
+                image_end = response.index("##CONTENT##")
+                image_query = response[image_start:image_end].strip()
+                content_start = image_end
+            else:
+                content_start = response.index("##CONTENT##")
+
+            title = response[title_start:content_start if "##IMAGE_QUERY##" not in response else response.index("##IMAGE_QUERY##")].strip()
 
             html_start = content_start + len("##CONTENT##")
             html_end = response.index("##END##") if "##END##" in response else len(response)
@@ -443,4 +455,4 @@ def _parse_response(response: str, job_name: str) -> tuple[str, str]:
         except ValueError:
             pass
 
-    return title, content
+    return title, content, image_query
