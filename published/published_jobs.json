@@ -1,13 +1,14 @@
 {
   "published_ids": [
     "089",
-    "015"
+    "015",
+    "004"
   ],
-  "total_published": 2,
+  "total_published": 3,
   "last_published": {
-    "id": "015",
-    "name": "IT 프로젝트 매니저",
-    "post_id": 7,
-    "published_at": "2026-05-27T10:19:54.081955"
+    "id": "004",
+    "name": "AI·머신러닝 엔지니어",
+    "post_id": 9,
+    "published_at": "2026-05-27T10:23:58.046941"
   }
 }
