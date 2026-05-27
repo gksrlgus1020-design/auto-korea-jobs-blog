@@ -18,7 +18,9 @@ _FALLBACK_KEYWORDS = {
 def fetch_thumbnail(job_name: str, category: str) -> tuple[bytes, str] | tuple[None, None]:
     """Pexels에서 직업 관련 이미지 가져오기. (image_bytes, filename) 반환."""
     api_key = os.environ.get("PEXELS_API_KEY", "")
+    print(f"  PEXELS_API_KEY 존재: {bool(api_key)} (길이: {len(api_key)})")
     if not api_key:
+        print("  ⚠️ PEXELS_API_KEY 없음 — 시크릿 확인 필요")
         return None, None
 
     query = _FALLBACK_KEYWORDS.get(category, job_name)
