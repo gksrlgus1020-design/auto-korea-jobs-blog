@@ -106,5 +106,51 @@
   {"id":"105","name":"바리스타","category":"음식·서비스","avg_salary":2800,"salary_min":1800,"salary_max":5000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"보통","required_education":"관련 없음"},
   {"id":"106","name":"스마트팜 농업인","category":"농업·환경","avg_salary":4000,"salary_min":2000,"salary_max":12000,"salary_source":"농림축산식품부, 2023","employment_outlook":"증가","required_education":"관련 없음"},
   {"id":"107","name":"조경사","category":"농업·환경","avg_salary":3800,"salary_min":2300,"salary_max":6500,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"보통","required_education":"조경학과 졸업 + 자격증"},
-  {"id":"108","name":"환경 컨설턴트","category":"농업·환경","avg_salary":4500,"salary_min":2800,"salary_max":8500,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"증가","required_education":"환경 관련 대졸 이상"}
+  {"id":"108","name":"환경 컨설턴트","category":"농업·환경","avg_salary":4500,"salary_min":2800,"salary_max":8500,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"증가","required_education":"환경 관련 대졸 이상"},
+
+  {"id":"109","name":"프로 운동선수","category":"스포츠·레저","avg_salary":5000,"salary_min":1000,"salary_max":100000,"salary_source":"한국프로스포츠협회·추정치, 2023","employment_outlook":"보통","required_education":"관련 없음"},
+  {"id":"110","name":"스포츠 트레이너","category":"스포츠·레저","avg_salary":3500,"salary_min":2000,"salary_max":8000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"증가","required_education":"체육 관련 대졸 + 자격증"},
+  {"id":"111","name":"스포츠 에이전트","category":"스포츠·레저","avg_salary":5500,"salary_min":2500,"salary_max":20000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"증가","required_education":"대졸 이상"},
+  {"id":"112","name":"체육 교사","category":"스포츠·레저","avg_salary":4300,"salary_min":2700,"salary_max":7000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"보통","required_education":"체육교육과 졸업 + 교원 자격"},
+  {"id":"113","name":"스포츠 심판","category":"스포츠·레저","avg_salary":3500,"salary_min":1500,"salary_max":8000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"보통","required_education":"심판 자격증"},
+  {"id":"114","name":"피트니스 트레이너","category":"스포츠·레저","avg_salary":3200,"salary_min":2000,"salary_max":7000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"증가","required_education":"생활체육지도사 자격증"},
+  {"id":"115","name":"스포츠 해설위원","category":"스포츠·레저","avg_salary":5000,"salary_min":2500,"salary_max":15000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"보통","required_education":"관련 경력"},
+  {"id":"116","name":"레저·스포츠 강사","category":"스포츠·레저","avg_salary":3000,"salary_min":1800,"salary_max":6000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"증가","required_education":"관련 자격증"},
+
+  {"id":"117","name":"경영 컨설턴트","category":"경영·기획","avg_salary":7000,"salary_min":4000,"salary_max":20000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"증가","required_education":"대졸 이상 (MBA 우대)"},
+  {"id":"118","name":"사업 기획자","category":"경영·기획","avg_salary":5500,"salary_min":3200,"salary_max":12000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"증가","required_education":"대졸 이상"},
+  {"id":"119","name":"전략 기획 담당자","category":"경영·기획","avg_salary":5800,"salary_min":3500,"salary_max":13000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"증가","required_education":"대졸 이상"},
+  {"id":"120","name":"인사·채용 담당자","category":"경영·기획","avg_salary":4500,"salary_min":2800,"salary_max":9000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"보통","required_education":"대졸 이상"},
+  {"id":"121","name":"경영 분석가","category":"경영·기획","avg_salary":5200,"salary_min":3200,"salary_max":11000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"증가","required_education":"대졸 이상"},
+  {"id":"122","name":"스타트업 창업자","category":"경영·기획","avg_salary":4000,"salary_min":0,"salary_max":100000,"salary_source":"중소벤처기업부·추정치, 2023","employment_outlook":"증가","required_education":"관련 없음"},
+  {"id":"123","name":"PMO·프로젝트 매니저","category":"경영·기획","avg_salary":5500,"salary_min":3500,"salary_max":12000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"증가","required_education":"대졸 이상 + PMP 자격 우대"},
+
+  {"id":"124","name":"광고 기획자","category":"마케팅·광고","avg_salary":5000,"salary_min":3000,"salary_max":12000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"보통","required_education":"대졸 이상"},
+  {"id":"125","name":"SNS·디지털 마케터","category":"마케팅·광고","avg_salary":4000,"salary_min":2500,"salary_max":9000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"증가","required_education":"대졸 이상"},
+  {"id":"126","name":"콘텐츠 마케터","category":"마케팅·광고","avg_salary":4200,"salary_min":2600,"salary_max":9000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"증가","required_education":"대졸 이상"},
+  {"id":"127","name":"퍼포먼스 마케터","category":"마케팅·광고","avg_salary":4800,"salary_min":3000,"salary_max":11000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"증가","required_education":"대졸 이상"},
+  {"id":"128","name":"PR·홍보 전문가","category":"마케팅·광고","avg_salary":4500,"salary_min":2800,"salary_max":10000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"보통","required_education":"대졸 이상"},
+  {"id":"129","name":"카피라이터","category":"마케팅·광고","avg_salary":4000,"salary_min":2400,"salary_max":9000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"보통","required_education":"대졸 이상"},
+  {"id":"130","name":"브랜드 전략가","category":"마케팅·광고","avg_salary":5500,"salary_min":3500,"salary_max":13000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"증가","required_education":"대졸 이상"},
+
+  {"id":"131","name":"그래픽 디자이너","category":"디자인","avg_salary":3800,"salary_min":2200,"salary_max":8000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"보통","required_education":"디자인 관련 대졸 이상"},
+  {"id":"132","name":"패션 디자이너","category":"디자인","avg_salary":4000,"salary_min":2200,"salary_max":10000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"보통","required_education":"패션디자인 대졸 이상"},
+  {"id":"133","name":"인테리어 디자이너","category":"디자인","avg_salary":4500,"salary_min":2600,"salary_max":9000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"보통","required_education":"실내디자인 대졸 이상"},
+  {"id":"134","name":"모션 그래픽 디자이너","category":"디자인","avg_salary":4200,"salary_min":2500,"salary_max":9000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"증가","required_education":"디자인·영상 관련 대졸 이상"},
+  {"id":"135","name":"제품·산업 디자이너","category":"디자인","avg_salary":4500,"salary_min":2700,"salary_max":9500,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"보통","required_education":"산업디자인 대졸 이상"},
+  {"id":"136","name":"공간·전시 디자이너","category":"디자인","avg_salary":4000,"salary_min":2400,"salary_max":8500,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"보통","required_education":"공간디자인 관련 대졸 이상"},
+
+  {"id":"137","name":"메이크업 아티스트","category":"뷰티·패션","avg_salary":3500,"salary_min":1800,"salary_max":10000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"보통","required_education":"미용 관련 자격증"},
+  {"id":"138","name":"헤어 디자이너","category":"뷰티·패션","avg_salary":3500,"salary_min":1800,"salary_max":8000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"보통","required_education":"미용 자격증"},
+  {"id":"139","name":"네일 아티스트","category":"뷰티·패션","avg_salary":2800,"salary_min":1600,"salary_max":6000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"보통","required_education":"네일 자격증"},
+  {"id":"140","name":"피부관리사","category":"뷰티·패션","avg_salary":3200,"salary_min":1900,"salary_max":7000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"증가","required_education":"피부미용 자격증"},
+  {"id":"141","name":"패션 스타일리스트","category":"뷰티·패션","avg_salary":3800,"salary_min":2000,"salary_max":12000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"보통","required_education":"패션 관련 대졸 이상"},
+  {"id":"142","name":"뷰티 크리에이터","category":"뷰티·패션","avg_salary":4000,"salary_min":500,"salary_max":30000,"salary_source":"한국MCN협회·추정치, 2023","employment_outlook":"증가","required_education":"관련 없음"},
+
+  {"id":"143","name":"항공 승무원","category":"관광·호텔","avg_salary":5000,"salary_min":3000,"salary_max":9000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"보통","required_education":"전문대졸 이상 + 항공사 채용"},
+  {"id":"144","name":"호텔리어","category":"관광·호텔","avg_salary":3800,"salary_min":2200,"salary_max":9000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"증가","required_education":"관광호텔 관련 대졸 이상"},
+  {"id":"145","name":"관광 가이드","category":"관광·호텔","avg_salary":3500,"salary_min":2000,"salary_max":8000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"증가","required_education":"관광통역안내사 자격증"},
+  {"id":"146","name":"여행 상품 기획자","category":"관광·호텔","avg_salary":4000,"salary_min":2500,"salary_max":8000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"증가","required_education":"관광 관련 대졸 이상"},
+  {"id":"147","name":"카지노 딜러","category":"관광·호텔","avg_salary":4000,"salary_min":2500,"salary_max":7500,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"보통","required_education":"딜러 자격증"},
+  {"id":"148","name":"컨시어지·프런트 데스크","category":"관광·호텔","avg_salary":3400,"salary_min":2100,"salary_max":6000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"보통","required_education":"관광 관련 전문대졸 이상"}
 ]

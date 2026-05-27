@@ -2,16 +2,16 @@ name: 직업 블로그 자동 포스팅
 
 on:
   schedule:
-    - cron: '0 1 * * *'   # 매일 오전 10시 KST (UTC+9 → UTC 01:00)
-    - cron: '0 5 * * *'   # 매일 오후 2시  KST (UTC+9 → UTC 05:00)
-  workflow_dispatch:       # 수동 실행 (테스트용)
+    - cron: '0 23 * * *'   # 매일 오전 8시 KST 시작 (이후 랜덤 딜레이)
+  workflow_dispatch:         # 수동 실행 (테스트용)
 
 permissions:
-  contents: write          # published_jobs.json commit을 위해 필요
+  contents: write
 
 jobs:
   post:
     runs-on: ubuntu-latest
+    timeout-minutes: 440     # 랜덤 딜레이 최대 7시간 + 여유
 
     steps:
       - name: 코드 체크아웃
@@ -26,6 +26,17 @@ jobs:
 
       - name: 의존성 설치
         run: pip install -r requirements.txt
+
+      - name: 랜덤 딜레이 (오전 8시~오후 3시 KST 사이 랜덤 발행)
+        if: github.event_name == 'schedule'
+        run: |
+          python3 -c "
+          import time, random
+          delay = random.randint(0, 25200)
+          h, m = divmod(delay, 3600)
+          print('대기: ' + str(h) + '시간 ' + str(m // 60) + '분 후 발행')
+          time.sleep(delay)
+          "
 
       - name: 포스팅 실행
         env:
@@ -42,6 +53,7 @@ jobs:
         run: |
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name  "GitHub Actions Bot"
+          git pull origin main --no-rebase
           git add published/
           LAST=$(cat published/last_published.txt 2>/dev/null || echo "직업 정보")
           git diff --staged --quiet || git commit -m "✅ 포스팅 완료: ${LAST}"
