@@ -8,13 +8,14 @@
     "067",
     "020",
     "128",
-    "026"
+    "026",
+    "005"
   ],
-  "total_published": 9,
+  "total_published": 10,
   "last_published": {
-    "id": "026",
-    "name": "간호사",
-    "post_id": 26,
-    "published_at": "2026-05-28T10:59:36.980584"
+    "id": "005",
+    "name": "클라우드 엔지니어",
+    "post_id": 28,
+    "published_at": "2026-05-28T15:05:41.449427"
   }
 }
