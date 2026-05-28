@@ -7,13 +7,14 @@
     "101",
     "067",
     "020",
-    "128"
+    "128",
+    "026"
   ],
-  "total_published": 8,
+  "total_published": 9,
   "last_published": {
-    "id": "128",
-    "name": "PR·홍보 전문가",
-    "post_id": 24,
-    "published_at": "2026-05-27T12:02:37.906670"
+    "id": "026",
+    "name": "간호사",
+    "post_id": 26,
+    "published_at": "2026-05-28T10:59:36.980584"
   }
 }
