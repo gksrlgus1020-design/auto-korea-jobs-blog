@@ -9,13 +9,14 @@
     "020",
     "128",
     "026",
-    "005"
+    "005",
+    "078"
   ],
-  "total_published": 10,
+  "total_published": 11,
   "last_published": {
-    "id": "005",
-    "name": "클라우드 엔지니어",
-    "post_id": 28,
-    "published_at": "2026-05-28T15:05:41.449427"
+    "id": "078",
+    "name": "산업 디자이너",
+    "post_id": 30,
+    "published_at": "2026-05-29T12:33:54.711564"
   }
 }
