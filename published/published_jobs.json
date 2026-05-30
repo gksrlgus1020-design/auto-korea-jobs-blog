@@ -10,13 +10,14 @@
     "128",
     "026",
     "005",
-    "078"
+    "078",
+    "028"
   ],
-  "total_published": 11,
+  "total_published": 12,
   "last_published": {
-    "id": "078",
-    "name": "산업 디자이너",
-    "post_id": 30,
-    "published_at": "2026-05-29T12:33:54.711564"
+    "id": "028",
+    "name": "물리치료사",
+    "post_id": 32,
+    "published_at": "2026-05-30T11:41:43.216490"
   }
 }
