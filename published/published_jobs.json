@@ -11,13 +11,14 @@
     "026",
     "005",
     "078",
-    "028"
+    "028",
+    "066"
   ],
-  "total_published": 12,
+  "total_published": 13,
   "last_published": {
-    "id": "028",
-    "name": "물리치료사",
-    "post_id": 32,
-    "published_at": "2026-05-30T11:41:43.216490"
+    "id": "066",
+    "name": "경찰관",
+    "post_id": 34,
+    "published_at": "2026-06-01T02:43:45.326847"
   }
 }
