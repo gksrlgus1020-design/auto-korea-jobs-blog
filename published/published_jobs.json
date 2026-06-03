@@ -13,13 +13,14 @@
     "078",
     "028",
     "066",
-    "142"
+    "142",
+    "096"
   ],
-  "total_published": 14,
+  "total_published": 15,
   "last_published": {
-    "id": "142",
-    "name": "뷰티 크리에이터",
-    "post_id": 36,
-    "published_at": "2026-06-02T04:22:52.231444"
+    "id": "096",
+    "name": "항공기 조종사",
+    "post_id": 38,
+    "published_at": "2026-06-03T04:40:19.665163"
   }
 }
