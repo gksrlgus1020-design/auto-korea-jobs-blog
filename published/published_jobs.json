@@ -15,13 +15,14 @@
     "066",
     "142",
     "096",
-    "011"
+    "011",
+    "061"
   ],
-  "total_published": 16,
+  "total_published": 17,
   "last_published": {
-    "id": "011",
-    "name": "시스템 엔지니어",
-    "post_id": 40,
-    "published_at": "2026-06-04T01:59:29.333603"
+    "id": "061",
+    "name": "변리사",
+    "post_id": 42,
+    "published_at": "2026-06-05T05:45:05.564329"
   }
 }
