@@ -17,13 +17,14 @@
     "096",
     "011",
     "061",
-    "138"
+    "138",
+    "057"
   ],
-  "total_published": 18,
+  "total_published": 19,
   "last_published": {
-    "id": "138",
-    "name": "헤어 디자이너",
-    "post_id": 44,
-    "published_at": "2026-06-06T04:14:32.764114"
+    "id": "057",
+    "name": "검사",
+    "post_id": 46,
+    "published_at": "2026-06-07T00:46:58.023874"
   }
 }
