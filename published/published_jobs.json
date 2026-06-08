@@ -18,13 +18,14 @@
     "011",
     "061",
     "138",
-    "057"
+    "057",
+    "120"
   ],
-  "total_published": 19,
+  "total_published": 20,
   "last_published": {
-    "id": "057",
-    "name": "검사",
-    "post_id": 46,
-    "published_at": "2026-06-07T00:46:58.023874"
+    "id": "120",
+    "name": "인사·채용 담당자",
+    "post_id": 48,
+    "published_at": "2026-06-08T00:06:59.958538"
   }
 }
