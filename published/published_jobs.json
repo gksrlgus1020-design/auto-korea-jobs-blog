@@ -20,13 +20,14 @@
     "138",
     "057",
     "120",
-    "003"
+    "003",
+    "081"
   ],
-  "total_published": 21,
+  "total_published": 22,
   "last_published": {
-    "id": "003",
-    "name": "데이터 사이언티스트",
-    "post_id": 50,
-    "published_at": "2026-06-09T04:06:31.459517"
+    "id": "081",
+    "name": "영업 관리자",
+    "post_id": 52,
+    "published_at": "2026-06-10T01:50:03.694580"
   }
 }
