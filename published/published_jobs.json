@@ -21,13 +21,14 @@
     "057",
     "120",
     "003",
-    "081"
+    "081",
+    "134"
   ],
-  "total_published": 22,
+  "total_published": 23,
   "last_published": {
-    "id": "081",
-    "name": "영업 관리자",
-    "post_id": 52,
-    "published_at": "2026-06-10T01:50:03.694580"
+    "id": "134",
+    "name": "모션 그래픽 디자이너",
+    "post_id": 54,
+    "published_at": "2026-06-11T05:15:38.354553"
   }
 }
