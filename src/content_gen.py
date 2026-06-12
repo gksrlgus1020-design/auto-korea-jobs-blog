@@ -534,6 +534,8 @@ def generate_content(job: dict) -> tuple[str, str, str]:
     content_type = random.choice(_CONTENT_TYPES)
     target_length = random.choice(["1200~1800자", "2000~2800자", "3000~3500자", "3800~4500자"])
 
+    focus_line = f"\n[이번 글 집중 주제 — 반드시 이 방향으로 작성]\n{job['focus']}" if job.get('focus') else ""
+
     prompt = f"""오늘 작성할 직업: {job['name']}
 
 [직업 정보]
@@ -543,7 +545,7 @@ def generate_content(job: dict) -> tuple[str, str, str]:
 - 연봉 출처: {job.get('salary_source', '고용노동부 임금구조기본통계')}
 - 고용 전망: {job.get('employment_outlook', '보통')}
 - 요구 학력: {job.get('required_education', '대졸 이상')}
-
+{focus_line}
 [이번 글 유형]
 {content_type}
 

@@ -152,5 +152,17 @@
   {"id":"145","name":"관광 가이드","category":"관광·호텔","avg_salary":3500,"salary_min":2000,"salary_max":8000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"증가","required_education":"관광통역안내사 자격증"},
   {"id":"146","name":"여행 상품 기획자","category":"관광·호텔","avg_salary":4000,"salary_min":2500,"salary_max":8000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"증가","required_education":"관광 관련 대졸 이상"},
   {"id":"147","name":"카지노 딜러","category":"관광·호텔","avg_salary":4000,"salary_min":2500,"salary_max":7500,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"보통","required_education":"딜러 자격증"},
-  {"id":"148","name":"컨시어지·프런트 데스크","category":"관광·호텔","avg_salary":3400,"salary_min":2100,"salary_max":6000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"보통","required_education":"관광 관련 전문대졸 이상"}
+  {"id":"148","name":"컨시어지·프런트 데스크","category":"관광·호텔","avg_salary":3400,"salary_min":2100,"salary_max":6000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"보통","required_education":"관광 관련 전문대졸 이상"},
+
+  {"id":"149","name":"간호조무사","category":"의료·보건","avg_salary":2800,"salary_min":2200,"salary_max":3800,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"증가","required_education":"간호조무사 자격증"},
+  {"id":"150","name":"간병인","category":"의료·보건","avg_salary":3200,"salary_min":2400,"salary_max":4500,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"증가","required_education":"관련 없음 (요양보호사 자격증 우대)"},
+  {"id":"151","name":"치과위생사","category":"의료·보건","avg_salary":3500,"salary_min":2400,"salary_max":5500,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"증가","required_education":"치위생학과 졸업 + 면허"},
+  {"id":"152","name":"안경사","category":"의료·보건","avg_salary":3600,"salary_min":2400,"salary_max":5500,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"보통","required_education":"안경광학과 졸업 + 면허"},
+  {"id":"153","name":"임상병리사","category":"의료·보건","avg_salary":3700,"salary_min":2500,"salary_max":5800,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"증가","required_education":"임상병리학과 졸업 + 면허"},
+  {"id":"154","name":"요양보호사","category":"의료·보건","avg_salary":2600,"salary_min":2000,"salary_max":3500,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"증가","required_education":"요양보호사 자격증"},
+  {"id":"155","name":"의료기기 영업","category":"의료·보건","avg_salary":5000,"salary_min":3000,"salary_max":10000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"증가","required_education":"이공계 대졸 이상"},
+
+  {"id":"156","name":"간호사","category":"의료·보건","avg_salary":4200,"salary_min":2800,"salary_max":6500,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"증가","required_education":"간호학과 졸업 + 면허","focus":"연봉과 취업방법 — 신규 간호사가 어떻게 취업 준비를 하는지, 병원 종류별 연봉 차이, 실제 합격 전략 중심으로 작성"},
+  {"id":"157","name":"소방관","category":"공무원·공공","avg_salary":4500,"salary_min":3000,"salary_max":6500,"salary_source":"행정안전부 공무원 보수규정, 2023","employment_outlook":"보통","required_education":"소방공무원 시험 합격","focus":"소방공무원 시험 준비 — 필기·체력·면접 전형 구조, 합격 커트라인, 실제 준비 기간과 전략 중심으로 작성"},
+  {"id":"158","name":"개발자","category":"IT·개발","avg_salary":5500,"salary_min":3000,"salary_max":15000,"salary_source":"고용노동부 임금구조기본통계, 2023","employment_outlook":"증가","required_education":"컴퓨터공학 대졸 이상 또는 자격증","focus":"이직과 커리어 — 개발자의 이직 주기, 연봉 협상 방법, 스타트업 vs 대기업 비교, 포트폴리오 전략 중심으로 작성"}
 ]
