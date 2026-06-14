@@ -23,13 +23,14 @@
     "003",
     "081",
     "134",
-    "064"
+    "064",
+    "155"
   ],
-  "total_published": 24,
+  "total_published": 25,
   "last_published": {
-    "id": "064",
-    "name": "국가공무원 7급",
-    "post_id": 56,
-    "published_at": "2026-06-11T06:32:14.457029"
+    "id": "155",
+    "name": "의료기기 영업",
+    "post_id": 58,
+    "published_at": "2026-06-14T12:44:46.286824"
   }
 }
