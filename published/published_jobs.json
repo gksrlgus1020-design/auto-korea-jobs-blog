@@ -24,13 +24,14 @@
     "081",
     "134",
     "064",
-    "155"
+    "155",
+    "007"
   ],
-  "total_published": 25,
+  "total_published": 26,
   "last_published": {
-    "id": "155",
-    "name": "의료기기 영업",
-    "post_id": 58,
-    "published_at": "2026-06-14T12:44:46.286824"
+    "id": "007",
+    "name": "DevOps 엔지니어",
+    "post_id": 60,
+    "published_at": "2026-06-14T12:46:26.799664"
   }
 }
