@@ -25,13 +25,14 @@
     "134",
     "064",
     "155",
-    "007"
+    "007",
+    "069"
   ],
-  "total_published": 26,
+  "total_published": 27,
   "last_published": {
-    "id": "007",
-    "name": "DevOps 엔지니어",
-    "post_id": 60,
-    "published_at": "2026-06-14T12:46:26.799664"
+    "id": "069",
+    "name": "외교관",
+    "post_id": null,
+    "published_at": "2026-06-14T12:46:30.000000"
   }
 }
