@@ -26,13 +26,14 @@
     "064",
     "155",
     "007",
-    "069"
+    "069",
+    "116"
   ],
-  "total_published": 27,
+  "total_published": 28,
   "last_published": {
-    "id": "069",
-    "name": "외교관",
-    "post_id": null,
-    "published_at": "2026-06-14T12:46:30.000000"
+    "id": "116",
+    "name": "레저·스포츠 강사",
+    "post_id": 64,
+    "published_at": "2026-06-15T00:27:31.770742"
   }
 }
