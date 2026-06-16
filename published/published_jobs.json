@@ -27,13 +27,14 @@
     "155",
     "007",
     "069",
-    "116"
+    "116",
+    "104"
   ],
-  "total_published": 28,
+  "total_published": 29,
   "last_published": {
-    "id": "116",
-    "name": "레저·스포츠 강사",
-    "post_id": 64,
-    "published_at": "2026-06-15T00:27:31.770742"
+    "id": "104",
+    "name": "헤어 디자이너",
+    "post_id": 66,
+    "published_at": "2026-06-16T01:22:29.698936"
   }
 }
