@@ -31,13 +31,14 @@
     "104",
     "109",
     "019",
-    "079"
+    "079",
+    "010"
   ],
-  "total_published": 32,
+  "total_published": 33,
   "last_published": {
-    "id": "079",
-    "name": "품질관리 기사",
-    "post_id": 72,
-    "published_at": "2026-06-19T04:18:34.886268"
+    "id": "010",
+    "name": "데이터 엔지니어",
+    "post_id": 74,
+    "published_at": "2026-06-20T02:20:29.841110"
   }
 }
