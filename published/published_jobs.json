@@ -32,13 +32,14 @@
     "109",
     "019",
     "079",
-    "010"
+    "010",
+    "058"
   ],
-  "total_published": 33,
+  "total_published": 34,
   "last_published": {
-    "id": "010",
-    "name": "데이터 엔지니어",
-    "post_id": 74,
-    "published_at": "2026-06-20T02:20:29.841110"
+    "id": "058",
+    "name": "판사",
+    "post_id": 76,
+    "published_at": "2026-06-21T02:24:17.310908"
   }
 }
