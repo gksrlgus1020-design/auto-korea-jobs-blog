@@ -33,13 +33,14 @@
     "019",
     "079",
     "010",
-    "058"
+    "058",
+    "072"
   ],
-  "total_published": 34,
+  "total_published": 35,
   "last_published": {
-    "id": "058",
-    "name": "판사",
-    "post_id": 76,
-    "published_at": "2026-06-21T02:24:17.310908"
+    "id": "072",
+    "name": "건축사",
+    "post_id": 78,
+    "published_at": "2026-06-22T05:44:35.294966"
   }
 }
