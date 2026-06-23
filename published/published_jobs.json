@@ -34,13 +34,14 @@
     "079",
     "010",
     "058",
-    "072"
+    "072",
+    "053"
   ],
-  "total_published": 35,
+  "total_published": 36,
   "last_published": {
-    "id": "072",
-    "name": "건축사",
-    "post_id": 78,
-    "published_at": "2026-06-22T05:44:35.294966"
+    "id": "053",
+    "name": "관세사",
+    "post_id": 80,
+    "published_at": "2026-06-23T04:03:16.753278"
   }
 }
