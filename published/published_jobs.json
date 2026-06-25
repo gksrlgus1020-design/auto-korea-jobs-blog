@@ -35,13 +35,14 @@
     "010",
     "058",
     "072",
-    "053"
+    "053",
+    "117"
   ],
-  "total_published": 36,
+  "total_published": 37,
   "last_published": {
-    "id": "053",
-    "name": "관세사",
-    "post_id": 80,
-    "published_at": "2026-06-23T04:03:16.753278"
+    "id": "117",
+    "name": "경영 컨설턴트",
+    "post_id": 82,
+    "published_at": "2026-06-25T04:10:19.490045"
   }
 }
