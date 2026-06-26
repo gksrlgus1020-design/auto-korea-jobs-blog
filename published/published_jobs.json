@@ -36,13 +36,14 @@
     "058",
     "072",
     "053",
-    "117"
+    "117",
+    "029"
   ],
-  "total_published": 37,
+  "total_published": 38,
   "last_published": {
-    "id": "117",
-    "name": "경영 컨설턴트",
-    "post_id": 82,
-    "published_at": "2026-06-25T04:10:19.490045"
+    "id": "029",
+    "name": "작업치료사",
+    "post_id": 84,
+    "published_at": "2026-06-26T00:19:06.570022"
   }
 }
