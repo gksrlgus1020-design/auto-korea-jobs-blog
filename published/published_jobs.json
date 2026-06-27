@@ -37,13 +37,14 @@
     "072",
     "053",
     "117",
-    "029"
+    "029",
+    "024"
   ],
-  "total_published": 38,
+  "total_published": 39,
   "last_published": {
-    "id": "029",
-    "name": "작업치료사",
-    "post_id": 84,
-    "published_at": "2026-06-26T00:19:06.570022"
+    "id": "024",
+    "name": "한의사",
+    "post_id": 86,
+    "published_at": "2026-06-27T04:20:12.687497"
   }
 }
