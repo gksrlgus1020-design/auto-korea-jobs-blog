@@ -38,13 +38,14 @@
     "053",
     "117",
     "029",
-    "024"
+    "024",
+    "009"
   ],
-  "total_published": 39,
+  "total_published": 40,
   "last_published": {
-    "id": "024",
-    "name": "한의사",
-    "post_id": 86,
-    "published_at": "2026-06-27T04:20:12.687497"
+    "id": "009",
+    "name": "UI·UX 디자이너",
+    "post_id": 88,
+    "published_at": "2026-06-29T04:12:23.036313"
   }
 }
