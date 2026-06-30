@@ -39,13 +39,14 @@
     "117",
     "029",
     "024",
-    "009"
+    "009",
+    "012"
   ],
-  "total_published": 40,
+  "total_published": 41,
   "last_published": {
-    "id": "009",
-    "name": "UI·UX 디자이너",
-    "post_id": 88,
-    "published_at": "2026-06-29T04:12:23.036313"
+    "id": "012",
+    "name": "네트워크 엔지니어",
+    "post_id": 90,
+    "published_at": "2026-06-30T00:06:56.889943"
   }
 }
