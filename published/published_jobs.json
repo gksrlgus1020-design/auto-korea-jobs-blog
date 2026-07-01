@@ -40,13 +40,14 @@
     "029",
     "024",
     "009",
-    "012"
+    "012",
+    "044"
   ],
-  "total_published": 41,
+  "total_published": 42,
   "last_published": {
-    "id": "012",
-    "name": "네트워크 엔지니어",
-    "post_id": 90,
-    "published_at": "2026-06-30T00:06:56.889943"
+    "id": "044",
+    "name": "교육 행정직원",
+    "post_id": 92,
+    "published_at": "2026-07-01T05:46:47.573451"
   }
 }
