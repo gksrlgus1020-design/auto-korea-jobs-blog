@@ -42,13 +42,14 @@
     "009",
     "012",
     "044",
-    "013"
+    "013",
+    "153"
   ],
-  "total_published": 43,
+  "total_published": 44,
   "last_published": {
-    "id": "013",
-    "name": "데이터베이스 관리자",
-    "post_id": 94,
-    "published_at": "2026-07-02T04:13:14.426232"
+    "id": "153",
+    "name": "임상병리사",
+    "post_id": 96,
+    "published_at": "2026-07-03T02:31:24.977357"
   }
 }
