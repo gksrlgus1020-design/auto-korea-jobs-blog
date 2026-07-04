@@ -43,13 +43,14 @@
     "012",
     "044",
     "013",
-    "153"
+    "153",
+    "084"
   ],
-  "total_published": 44,
+  "total_published": 45,
   "last_published": {
-    "id": "153",
-    "name": "임상병리사",
-    "post_id": 96,
-    "published_at": "2026-07-03T02:31:24.977357"
+    "id": "084",
+    "name": "이벤트 플래너",
+    "post_id": 98,
+    "published_at": "2026-07-04T03:25:49.247153"
   }
 }
