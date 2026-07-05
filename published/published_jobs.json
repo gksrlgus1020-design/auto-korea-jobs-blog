@@ -44,13 +44,14 @@
     "044",
     "013",
     "153",
-    "084"
+    "084",
+    "040"
   ],
-  "total_published": 45,
+  "total_published": 46,
   "last_published": {
-    "id": "084",
-    "name": "이벤트 플래너",
-    "post_id": 98,
-    "published_at": "2026-07-04T03:25:49.247153"
+    "id": "040",
+    "name": "직업 상담사",
+    "post_id": 100,
+    "published_at": "2026-07-05T01:12:52.474445"
   }
 }
