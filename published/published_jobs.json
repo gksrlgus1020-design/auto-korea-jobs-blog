@@ -48,13 +48,14 @@
     "040",
     "132",
     "135",
-    "043"
+    "043",
+    "056"
   ],
-  "total_published": 49,
+  "total_published": 50,
   "last_published": {
-    "id": "043",
-    "name": "어린이집 교사",
-    "post_id": 106,
-    "published_at": "2026-07-09T01:53:28.049602"
+    "id": "056",
+    "name": "변호사",
+    "post_id": 108,
+    "published_at": "2026-07-10T05:36:10.993532"
   }
 }
