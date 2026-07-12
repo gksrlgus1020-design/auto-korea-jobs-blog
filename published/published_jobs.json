@@ -50,13 +50,14 @@
     "135",
     "043",
     "056",
-    "106"
+    "106",
+    "039"
   ],
-  "total_published": 51,
+  "total_published": 52,
   "last_published": {
-    "id": "106",
-    "name": "스마트팜 농업인",
-    "post_id": 110,
-    "published_at": "2026-07-11T05:01:09.717966"
+    "id": "039",
+    "name": "유치원 교사",
+    "post_id": 112,
+    "published_at": "2026-07-12T00:03:55.214509"
   }
 }
