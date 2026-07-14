@@ -51,13 +51,14 @@
     "043",
     "056",
     "106",
-    "039"
+    "039",
+    "022"
   ],
-  "total_published": 52,
+  "total_published": 53,
   "last_published": {
-    "id": "039",
-    "name": "유치원 교사",
-    "post_id": 112,
-    "published_at": "2026-07-12T00:03:55.214509"
+    "id": "022",
+    "name": "외과 의사",
+    "post_id": 114,
+    "published_at": "2026-07-14T04:39:34.563668"
   }
 }
