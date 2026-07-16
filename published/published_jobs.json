@@ -53,13 +53,14 @@
     "106",
     "039",
     "022",
-    "092"
+    "092",
+    "042"
   ],
-  "total_published": 54,
+  "total_published": 55,
   "last_published": {
-    "id": "092",
-    "name": "영상 편집자",
-    "post_id": 116,
-    "published_at": "2026-07-15T05:26:56.366700"
+    "id": "042",
+    "name": "학원 원장·강사",
+    "post_id": 118,
+    "published_at": "2026-07-16T01:13:53.485077"
   }
 }
