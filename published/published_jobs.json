@@ -55,13 +55,14 @@
     "022",
     "092",
     "042",
-    "115"
+    "115",
+    "118"
   ],
-  "total_published": 56,
+  "total_published": 57,
   "last_published": {
-    "id": "115",
-    "name": "스포츠 해설위원",
-    "post_id": 120,
-    "published_at": "2026-07-16T23:58:06.459847"
+    "id": "118",
+    "name": "사업 기획자",
+    "post_id": 122,
+    "published_at": "2026-07-18T03:03:07.403601"
   }
 }
