@@ -56,13 +56,14 @@
     "092",
     "042",
     "115",
-    "118"
+    "118",
+    "068"
   ],
-  "total_published": 57,
+  "total_published": 58,
   "last_published": {
-    "id": "118",
-    "name": "사업 기획자",
-    "post_id": 122,
-    "published_at": "2026-07-18T03:03:07.403601"
+    "id": "068",
+    "name": "군 장교",
+    "post_id": 124,
+    "published_at": "2026-07-22T02:34:36.660498"
   }
 }
