@@ -57,13 +57,14 @@
     "042",
     "115",
     "118",
-    "068"
+    "068",
+    "041"
   ],
-  "total_published": 58,
+  "total_published": 59,
   "last_published": {
-    "id": "068",
-    "name": "군 장교",
-    "post_id": 124,
-    "published_at": "2026-07-22T02:34:36.660498"
+    "id": "041",
+    "name": "특수교육 교사",
+    "post_id": 126,
+    "published_at": "2026-07-23T02:04:13.330556"
   }
 }
