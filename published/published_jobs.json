@@ -58,13 +58,14 @@
     "115",
     "118",
     "068",
-    "041"
+    "041",
+    "145"
   ],
-  "total_published": 59,
+  "total_published": 60,
   "last_published": {
-    "id": "041",
-    "name": "특수교육 교사",
-    "post_id": 126,
-    "published_at": "2026-07-23T02:04:13.330556"
+    "id": "145",
+    "name": "관광 가이드",
+    "post_id": 128,
+    "published_at": "2026-07-24T03:11:51.517039"
   }
 }
