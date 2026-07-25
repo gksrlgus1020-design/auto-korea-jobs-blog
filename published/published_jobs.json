@@ -59,13 +59,14 @@
     "118",
     "068",
     "041",
-    "145"
+    "145",
+    "100"
   ],
-  "total_published": 60,
+  "total_published": 61,
   "last_published": {
-    "id": "145",
-    "name": "관광 가이드",
-    "post_id": 128,
-    "published_at": "2026-07-24T03:11:51.517039"
+    "id": "100",
+    "name": "드론 조종사",
+    "post_id": 130,
+    "published_at": "2026-07-25T05:19:00.065447"
   }
 }
