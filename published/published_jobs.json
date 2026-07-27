@@ -60,13 +60,14 @@
     "068",
     "041",
     "145",
-    "100"
+    "100",
+    "124"
   ],
-  "total_published": 61,
+  "total_published": 62,
   "last_published": {
-    "id": "100",
-    "name": "드론 조종사",
-    "post_id": 130,
-    "published_at": "2026-07-25T05:19:00.065447"
+    "id": "124",
+    "name": "광고 기획자",
+    "post_id": 132,
+    "published_at": "2026-07-27T02:57:34.279788"
   }
 }
