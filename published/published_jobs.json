@@ -62,13 +62,14 @@
     "145",
     "100",
     "124",
-    "027"
+    "027",
+    "014"
   ],
-  "total_published": 63,
+  "total_published": 64,
   "last_published": {
-    "id": "027",
-    "name": "방사선사",
-    "post_id": 134,
-    "published_at": "2026-07-28T05:09:52.210766"
+    "id": "014",
+    "name": "게임 개발자",
+    "post_id": 136,
+    "published_at": "2026-07-29T04:20:55.160430"
   }
 }
