@@ -63,13 +63,14 @@
     "100",
     "124",
     "027",
-    "014"
+    "014",
+    "050"
   ],
-  "total_published": 64,
+  "total_published": 65,
   "last_published": {
-    "id": "014",
-    "name": "게임 개발자",
-    "post_id": 136,
-    "published_at": "2026-07-29T04:20:55.160430"
+    "id": "050",
+    "name": "은행원",
+    "post_id": 138,
+    "published_at": "2026-07-30T01:13:28.771698"
   }
 }
