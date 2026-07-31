@@ -64,13 +64,14 @@
     "124",
     "027",
     "014",
-    "050"
+    "050",
+    "018"
   ],
-  "total_published": 65,
+  "total_published": 66,
   "last_published": {
-    "id": "050",
-    "name": "은행원",
-    "post_id": 138,
-    "published_at": "2026-07-30T01:13:28.771698"
+    "id": "018",
+    "name": "IT 컨설턴트",
+    "post_id": 140,
+    "published_at": "2026-07-31T00:25:51.340041"
   }
 }
