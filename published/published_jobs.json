@@ -65,13 +65,14 @@
     "027",
     "014",
     "050",
-    "018"
+    "018",
+    "146"
   ],
-  "total_published": 66,
+  "total_published": 67,
   "last_published": {
-    "id": "018",
-    "name": "IT 컨설턴트",
-    "post_id": 140,
-    "published_at": "2026-07-31T00:25:51.340041"
+    "id": "146",
+    "name": "여행 상품 기획자",
+    "post_id": 142,
+    "published_at": "2026-08-02T00:23:29.678986"
   }
 }
