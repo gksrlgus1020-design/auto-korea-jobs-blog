@@ -67,13 +67,14 @@
     "050",
     "018",
     "146",
-    "077"
+    "077",
+    "071"
   ],
-  "total_published": 68,
+  "total_published": 69,
   "last_published": {
-    "id": "077",
-    "name": "환경 엔지니어",
-    "post_id": 144,
-    "published_at": "2026-08-03T01:46:39.305815"
+    "id": "071",
+    "name": "교정직 공무원",
+    "post_id": 146,
+    "published_at": "2026-08-04T04:55:54.870549"
   }
 }
