@@ -71,13 +71,14 @@
     "071",
     "148",
     "076",
-    "062"
+    "062",
+    "002"
   ],
-  "total_published": 72,
+  "total_published": 73,
   "last_published": {
-    "id": "062",
-    "name": "행정사",
-    "post_id": 152,
-    "published_at": "2026-08-07T07:10:49.054970"
+    "id": "002",
+    "name": "웹 개발자",
+    "post_id": 154,
+    "published_at": "2026-08-08T03:07:14.011769"
   }
 }
