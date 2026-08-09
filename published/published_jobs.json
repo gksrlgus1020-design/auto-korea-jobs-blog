@@ -72,13 +72,14 @@
     "148",
     "076",
     "062",
-    "002"
+    "002",
+    "105"
   ],
-  "total_published": 73,
+  "total_published": 74,
   "last_published": {
-    "id": "002",
-    "name": "웹 개발자",
-    "post_id": 154,
-    "published_at": "2026-08-08T03:07:14.011769"
+    "id": "105",
+    "name": "바리스타",
+    "post_id": 156,
+    "published_at": "2026-08-09T04:50:58.106553"
   }
 }
