@@ -73,13 +73,14 @@
     "076",
     "062",
     "002",
-    "105"
+    "105",
+    "127"
   ],
-  "total_published": 74,
+  "total_published": 75,
   "last_published": {
-    "id": "105",
-    "name": "바리스타",
-    "post_id": 156,
-    "published_at": "2026-08-09T04:50:58.106553"
+    "id": "127",
+    "name": "퍼포먼스 마케터",
+    "post_id": 158,
+    "published_at": "2026-08-10T00:46:16.224005"
   }
 }
