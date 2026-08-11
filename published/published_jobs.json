@@ -74,13 +74,14 @@
     "062",
     "002",
     "105",
-    "127"
+    "127",
+    "048"
   ],
-  "total_published": 75,
+  "total_published": 76,
   "last_published": {
-    "id": "127",
-    "name": "퍼포먼스 마케터",
-    "post_id": 158,
-    "published_at": "2026-08-10T00:46:16.224005"
+    "id": "048",
+    "name": "투자 분석가",
+    "post_id": 160,
+    "published_at": "2026-08-11T02:40:18.073116"
   }
 }
