@@ -76,13 +76,14 @@
     "105",
     "127",
     "048",
-    "038"
+    "038",
+    "129"
   ],
-  "total_published": 77,
+  "total_published": 78,
   "last_published": {
-    "id": "038",
-    "name": "대학교수",
-    "post_id": 162,
-    "published_at": "2026-08-12T02:43:41.537390"
+    "id": "129",
+    "name": "카피라이터",
+    "post_id": 164,
+    "published_at": "2026-08-13T03:31:16.932960"
   }
 }
