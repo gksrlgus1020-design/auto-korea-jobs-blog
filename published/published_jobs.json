@@ -77,13 +77,14 @@
     "127",
     "048",
     "038",
-    "129"
+    "129",
+    "073"
   ],
-  "total_published": 78,
+  "total_published": 79,
   "last_published": {
-    "id": "129",
-    "name": "카피라이터",
-    "post_id": 164,
-    "published_at": "2026-08-13T03:31:16.932960"
+    "id": "073",
+    "name": "기계 엔지니어",
+    "post_id": 166,
+    "published_at": "2026-08-14T02:29:15.203168"
   }
 }
