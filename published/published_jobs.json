@@ -78,13 +78,14 @@
     "048",
     "038",
     "129",
-    "073"
+    "073",
+    "125"
   ],
-  "total_published": 79,
+  "total_published": 80,
   "last_published": {
-    "id": "073",
-    "name": "기계 엔지니어",
-    "post_id": 166,
-    "published_at": "2026-08-14T02:29:15.203168"
+    "id": "125",
+    "name": "SNS·디지털 마케터",
+    "post_id": 168,
+    "published_at": "2026-08-15T01:47:12.147060"
   }
 }
