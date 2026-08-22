@@ -84,13 +84,14 @@
     "006",
     "052",
     "141",
-    "137"
+    "137",
+    "144"
   ],
-  "total_published": 85,
+  "total_published": 86,
   "last_published": {
-    "id": "137",
-    "name": "메이크업 아티스트",
-    "post_id": 178,
-    "published_at": "2026-08-21T01:08:19.005346"
+    "id": "144",
+    "name": "호텔리어",
+    "post_id": 180,
+    "published_at": "2026-08-22T04:54:37.389529"
   }
 }
