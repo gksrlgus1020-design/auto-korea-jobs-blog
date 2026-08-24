@@ -86,13 +86,14 @@
     "141",
     "137",
     "144",
-    "033"
+    "033",
+    "045"
   ],
-  "total_published": 87,
+  "total_published": 88,
   "last_published": {
-    "id": "033",
-    "name": "수의사",
-    "post_id": 182,
-    "published_at": "2026-08-23T04:34:35.268826"
+    "id": "045",
+    "name": "학습지 교사",
+    "post_id": 184,
+    "published_at": "2026-08-24T02:50:10.699267"
   }
 }
