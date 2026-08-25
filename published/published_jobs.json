@@ -87,13 +87,14 @@
     "137",
     "144",
     "033",
-    "045"
+    "045",
+    "121"
   ],
-  "total_published": 88,
+  "total_published": 89,
   "last_published": {
-    "id": "045",
-    "name": "학습지 교사",
-    "post_id": 184,
-    "published_at": "2026-08-24T02:50:10.699267"
+    "id": "121",
+    "name": "경영 분석가",
+    "post_id": 186,
+    "published_at": "2026-08-25T00:01:21.929228"
   }
 }
