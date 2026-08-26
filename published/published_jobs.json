@@ -88,13 +88,14 @@
     "144",
     "033",
     "045",
-    "121"
+    "121",
+    "032"
   ],
-  "total_published": 89,
+  "total_published": 90,
   "last_published": {
-    "id": "121",
-    "name": "경영 분석가",
-    "post_id": 186,
-    "published_at": "2026-08-25T00:01:21.929228"
+    "id": "032",
+    "name": "응급구조사",
+    "post_id": 188,
+    "published_at": "2026-08-26T03:10:05.377687"
   }
 }
