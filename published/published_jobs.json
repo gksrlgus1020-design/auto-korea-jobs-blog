@@ -89,13 +89,14 @@
     "033",
     "045",
     "121",
-    "032"
+    "032",
+    "110"
   ],
-  "total_published": 90,
+  "total_published": 91,
   "last_published": {
-    "id": "032",
-    "name": "응급구조사",
-    "post_id": 188,
-    "published_at": "2026-08-26T03:10:05.377687"
+    "id": "110",
+    "name": "스포츠 트레이너",
+    "post_id": 190,
+    "published_at": "2026-08-27T04:27:53.094261"
   }
 }
