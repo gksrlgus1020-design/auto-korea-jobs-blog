@@ -93,13 +93,14 @@
     "110",
     "008",
     "103",
-    "149"
+    "149",
+    "083"
   ],
-  "total_published": 94,
+  "total_published": 95,
   "last_published": {
-    "id": "149",
-    "name": "간호조무사",
-    "post_id": 196,
-    "published_at": "2026-09-01T03:09:31.594495"
+    "id": "083",
+    "name": "부동산 중개사",
+    "post_id": 198,
+    "published_at": "2026-09-02T05:41:21.041498"
   }
 }
