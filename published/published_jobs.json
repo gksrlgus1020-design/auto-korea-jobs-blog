@@ -97,13 +97,14 @@
     "083",
     "055",
     "087",
-    "140"
+    "140",
+    "088"
   ],
-  "total_published": 98,
+  "total_published": 99,
   "last_published": {
-    "id": "140",
-    "name": "피부관리사",
-    "post_id": 204,
-    "published_at": "2026-09-05T05:26:42.438826"
+    "id": "088",
+    "name": "기자·언론인",
+    "post_id": 206,
+    "published_at": "2026-09-06T04:06:12.516794"
   }
 }
