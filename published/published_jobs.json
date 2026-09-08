@@ -99,13 +99,14 @@
     "087",
     "140",
     "088",
-    "130"
+    "130",
+    "099"
   ],
-  "total_published": 100,
+  "total_published": 101,
   "last_published": {
-    "id": "130",
-    "name": "브랜드 전략가",
-    "post_id": 208,
-    "published_at": "2026-09-07T02:00:50.524647"
+    "id": "099",
+    "name": "SCM·공급망 전문가",
+    "post_id": 210,
+    "published_at": "2026-09-08T02:21:43.853073"
   }
 }
