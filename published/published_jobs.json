@@ -100,13 +100,14 @@
     "140",
     "088",
     "130",
-    "099"
+    "099",
+    "107"
   ],
-  "total_published": 101,
+  "total_published": 102,
   "last_published": {
-    "id": "099",
-    "name": "SCM·공급망 전문가",
-    "post_id": 210,
-    "published_at": "2026-09-08T02:21:43.853073"
+    "id": "107",
+    "name": "조경사",
+    "post_id": 212,
+    "published_at": "2026-09-10T03:06:52.430299"
   }
 }
