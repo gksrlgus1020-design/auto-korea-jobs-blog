@@ -103,13 +103,14 @@
     "099",
     "107",
     "122",
-    "151"
+    "151",
+    "156"
   ],
-  "total_published": 104,
+  "total_published": 105,
   "last_published": {
-    "id": "151",
-    "name": "치과위생사",
-    "post_id": 216,
-    "published_at": "2026-09-12T04:49:41.529384"
+    "id": "156",
+    "name": "간호사",
+    "post_id": 218,
+    "published_at": "2026-09-13T03:19:59.624834"
   }
 }
