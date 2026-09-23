@@ -110,13 +110,14 @@
     "093",
     "111",
     "036",
-    "034"
+    "034",
+    "112"
   ],
-  "total_published": 111,
+  "total_published": 112,
   "last_published": {
-    "id": "034",
-    "name": "보건교사",
-    "post_id": 230,
-    "published_at": "2026-09-22T03:53:02.695442"
+    "id": "112",
+    "name": "체육 교사",
+    "post_id": 232,
+    "published_at": "2026-09-23T06:34:42.869144"
   }
 }
