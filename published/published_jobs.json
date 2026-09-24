@@ -111,13 +111,14 @@
     "111",
     "036",
     "034",
-    "112"
+    "112",
+    "059"
   ],
-  "total_published": 112,
+  "total_published": 113,
   "last_published": {
-    "id": "112",
-    "name": "체육 교사",
-    "post_id": 232,
-    "published_at": "2026-09-23T06:34:42.869144"
+    "id": "059",
+    "name": "법무사",
+    "post_id": 234,
+    "published_at": "2026-09-24T05:00:12.569665"
   }
 }
