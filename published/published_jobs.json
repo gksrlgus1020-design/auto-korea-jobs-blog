@@ -112,13 +112,14 @@
     "036",
     "034",
     "112",
-    "059"
+    "059",
+    "154"
   ],
-  "total_published": 113,
+  "total_published": 114,
   "last_published": {
-    "id": "059",
-    "name": "법무사",
-    "post_id": 234,
-    "published_at": "2026-09-24T05:00:12.569665"
+    "id": "154",
+    "name": "요양보호사",
+    "post_id": 236,
+    "published_at": "2026-09-27T06:07:28.262337"
   }
 }
