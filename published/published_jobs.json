@@ -117,13 +117,14 @@
     "143",
     "046",
     "119",
-    "152"
+    "152",
+    "085"
   ],
-  "total_published": 118,
+  "total_published": 119,
   "last_published": {
-    "id": "152",
-    "name": "안경사",
-    "post_id": 244,
-    "published_at": "2026-10-01T02:14:47.275396"
+    "id": "085",
+    "name": "여행 기획자",
+    "post_id": 246,
+    "published_at": "2026-10-02T02:27:07.002493"
   }
 }
