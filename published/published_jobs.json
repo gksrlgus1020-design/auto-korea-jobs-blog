@@ -128,13 +128,14 @@
     "094",
     "095",
     "049",
-    "021"
+    "021",
+    "157"
   ],
-  "total_published": 129,
+  "total_published": 130,
   "last_published": {
-    "id": "021",
-    "name": "내과 의사",
-    "post_id": 266,
-    "published_at": "2026-10-14T04:43:01.857561"
+    "id": "157",
+    "name": "소방관",
+    "post_id": 268,
+    "published_at": "2026-10-15T03:33:37.873977"
   }
 }
