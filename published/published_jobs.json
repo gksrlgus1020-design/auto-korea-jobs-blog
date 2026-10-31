@@ -143,13 +143,14 @@
     "065",
     "017",
     "098",
-    "070"
+    "070",
+    "158"
   ],
-  "total_published": 144,
+  "total_published": 145,
   "last_published": {
-    "id": "070",
-    "name": "세무 공무원",
-    "post_id": 296,
-    "published_at": "2026-10-30T05:55:15.616941"
+    "id": "158",
+    "name": "개발자",
+    "post_id": 298,
+    "published_at": "2026-10-31T07:08:32.913264"
   }
 }
