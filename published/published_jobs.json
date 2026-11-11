@@ -152,13 +152,14 @@
     "126",
     "091",
     "016",
-    "051"
+    "051",
+    "047"
   ],
-  "total_published": 153,
+  "total_published": 154,
   "last_published": {
-    "id": "051",
-    "name": "보험 설계사",
-    "post_id": 314,
-    "published_at": "2026-11-10T09:35:19.366538"
+    "id": "047",
+    "name": "세무사",
+    "post_id": 316,
+    "published_at": "2026-11-11T08:04:48.945100"
   }
 }
