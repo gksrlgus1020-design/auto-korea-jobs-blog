@@ -153,13 +153,14 @@
     "091",
     "016",
     "051",
-    "047"
+    "047",
+    "113"
   ],
-  "total_published": 154,
+  "total_published": 155,
   "last_published": {
-    "id": "047",
-    "name": "세무사",
-    "post_id": 316,
-    "published_at": "2026-11-11T08:04:48.945100"
+    "id": "113",
+    "name": "스포츠 심판",
+    "post_id": 318,
+    "published_at": "2026-11-12T07:55:36.640837"
   }
 }
