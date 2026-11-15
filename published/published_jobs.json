@@ -155,13 +155,14 @@
     "051",
     "047",
     "113",
-    "102"
+    "102",
+    "150"
   ],
-  "total_published": 156,
+  "total_published": 157,
   "last_published": {
-    "id": "102",
-    "name": "심리 상담사",
-    "post_id": 320,
-    "published_at": "2026-11-14T04:28:55.260787"
+    "id": "150",
+    "name": "간병인",
+    "post_id": 322,
+    "published_at": "2026-11-15T07:59:31.534398"
   }
 }
