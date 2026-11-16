@@ -156,13 +156,14 @@
     "047",
     "113",
     "102",
-    "150"
+    "150",
+    "030"
   ],
-  "total_published": 157,
+  "total_published": 158,
   "last_published": {
-    "id": "150",
-    "name": "간병인",
-    "post_id": 322,
-    "published_at": "2026-11-15T07:59:31.534398"
+    "id": "030",
+    "name": "임상심리사",
+    "post_id": 324,
+    "published_at": "2026-11-16T04:55:56.742677"
   }
 }
